@@ -1,13 +1,47 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap");
+
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --orange: #ff9900;
+  --orange-variant: #ffa212;
+  --black: #000;
+  --black-variant: rgba(0, 0, 0, 0.76);
+  --link-color: #ff5e2c;
+  --button-color: #01192d;
+  --work-sans: "Work Sans", sans-serif;
+  --playfair-display: "Playfair Display", serif;
+  --work-sans-300: 300;
+  --work-sans-400: 400;
+  --work-sans-500: 500;
+  --work-sans-600: 600;
+  --playfair-display-700: 700;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--work-sans);
+  font-weight: var(--work-sans-400);
+  font-size: 16px;
+  /* line-height: 1.5; */
+  color: var(--black-text);
 }

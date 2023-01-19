@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 const Button = styled.a`
   display: inline-block;
-  padding: ${({ nav }) => (nav ? `0.7rem  2.6rem` : "1.5rem 2.5rem")};
+  padding: ${({ nav }) => (nav ? `0.7rem  2.6rem` : "1.2rem 2.2rem")};
   background: ${({ nav }) =>
     nav ? "rgba(217, 217, 217, 0.39)" : "var(--button-color)"};
   border-radius: ${({ nav }) => (nav ? "8px" : "12px")};
   font-weight: var(--work-sans-600);
-  font-size: ${({ nav }) => (nav ? "1.125rem" : "1.5rem")};
+  font-size: ${({ nav }) => (nav ? "1.125rem" : "1.3rem")};
   letter-spacing: ${({ nav }) => (nav ? "" : "0.-5em")};
   line-height: ${({ nav }) => (nav ? "21px" : "28px")};
   color: ${({ nav }) => (nav ? "#000" : "#fff")};
